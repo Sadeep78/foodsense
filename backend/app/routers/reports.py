@@ -304,7 +304,7 @@ def send_weekly_summary_email(req: EmailReportRequest, db: Session = Depends(get
         </div>
         <hr style="border: none; border-top: 1px solid #e2e8f0;" />
         <p style="font-size: 11px; color: #94a3b8; text-align: center;">
-            Demo Mode: SMTP delivery mocked for University Demo (SLIIT Data Science & Business Analytics).
+            FoodSense Automated Executive Summary Dispatcher.
         </p>
     </div>
     """

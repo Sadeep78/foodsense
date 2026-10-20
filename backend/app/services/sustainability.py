@@ -146,7 +146,7 @@ def generate_sustainability_pdf(db: Session) -> bytes:
 
     # Title & Header
     story.append(Paragraph("FoodSense: ESG & Sustainability Impact Audit", title_style))
-    story.append(Paragraph("Colombo Gourmet Kitchen & Market • Verified University Demo Audit (SLIIT)", sub_style))
+    story.append(Paragraph("Colombo Gourmet Kitchen & Market • Verified Commercial Sustainability Audit", sub_style))
     story.append(Spacer(1, 10))
     story.append(HRFlowable(width="100%", thickness=1.5, color=colors.HexColor('#16a34a'), spaceAfter=15))
 

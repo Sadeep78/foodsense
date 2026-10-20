@@ -206,7 +206,7 @@ export const OutletsPage: React.FC = () => {
             </p>
           </div>
           <span className="text-xs font-semibold text-emerald-600 dark:text-emerald-400">
-            SLIIT Benchmark Standards
+            Industry Benchmark Standards
           </span>
         </div>
 

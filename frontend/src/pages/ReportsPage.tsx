@@ -515,7 +515,7 @@ export const ReportsPage: React.FC = () => {
               <p className="font-semibold text-slate-700 dark:text-slate-300 mb-0.5">
                 Demo Mode Notice:
               </p>
-              Simulates standard SMTP mail delivery for the SLIIT demonstration with interactive HTML digest preview.
+              Simulates standard SMTP mail delivery with interactive HTML digest preview.
             </div>
 
             <div className="flex items-center justify-end gap-2 pt-2 border-t border-slate-100 dark:border-slate-800">

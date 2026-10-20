@@ -23,12 +23,12 @@ export const DemoTourModal: React.FC<DemoTourModalProps> = ({ isOpen, onClose })
 
   const tourSteps = [
     {
-      title: 'University Project Overview: FoodSense Vision',
-      badge: 'SLIIT Data Science & Business Analytics',
+      title: 'Platform Overview: FoodSense Vision',
+      badge: 'AI Demand & Waste Intelligence',
       icon: <Award className="w-6 h-6 text-emerald-500" />,
       content:
         'FoodSense addresses the multi-billion rupee food waste dilemma in Sri Lankan hospitality and supermarkets. By moving operators from guesswork to data-driven Holt-Winters forecasting, businesses reduce perishable losses by up to 48% while avoiding metric tons of greenhouse gas emissions.',
-      highlight: 'End-to-end prototype demo ready for academic evaluation.',
+      highlight: 'Production-ready demand intelligence and waste analytics platform.',
       linkPath: '/',
       linkText: 'Explore Dashboard KPIs',
     },
@@ -88,11 +88,11 @@ export const DemoTourModal: React.FC<DemoTourModalProps> = ({ isOpen, onClose })
       size="xl"
       isDirty={true}
       confirmDiscardTitle="Exit guided pitch tour?"
-      confirmDiscardMessage="Are you sure you want to exit the academic demonstration tour?"
+      confirmDiscardMessage="Are you sure you want to exit the demonstration tour?"
       confirmDiscardConfirmText="Exit Tour"
       confirmDiscardCancelText="Continue Tour"
       showCloseButton={true}
-      ariaLabel="Academic Pitch Guided Tour"
+      ariaLabel="Product Pitch Guided Tour"
       title={
         <div className="flex items-center gap-2">
           <div className="p-2 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 shrink-0">

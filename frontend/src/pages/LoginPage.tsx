@@ -64,7 +64,7 @@ export const LoginPage: React.FC = () => {
         <div className="relative z-10 space-y-6 max-w-lg">
           <div className="inline-flex items-center gap-2 px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>SLIIT University Research Prototype</span>
+            <span>Enterprise Food Waste Intelligence Platform</span>
           </div>
           <h2 className="text-3xl font-extrabold tracking-tight leading-snug">
             Prevent Food Spoilage with Precision Demand Forecasting
@@ -89,7 +89,7 @@ export const LoginPage: React.FC = () => {
         </div>
 
         <div className="relative z-10 text-[11px] text-emerald-300/60">
-          Faculty of Computing • Department of Data Science & Business Analytics
+          Enterprise SaaS Platform • Demand & Waste Intelligence
         </div>
       </div>
 
@@ -105,7 +105,7 @@ export const LoginPage: React.FC = () => {
               <span className="font-bold text-lg text-slate-900 dark:text-white">
                 Food<span className="text-brand-600">Sense</span>
               </span>
-              <p className="text-[11px] text-slate-500">SLIIT Prototype Demo</p>
+              <p className="text-[11px] text-slate-500">Demand & Waste Intelligence</p>
             </div>
           </div>
 

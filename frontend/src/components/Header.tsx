@@ -270,8 +270,8 @@ export const Header: React.FC<HeaderProps> = ({ onToggleSidebar, onRefreshData }
             >
               <Compass className="w-4 h-4 text-emerald-600 shrink-0" />
               <div>
-                <p className="font-bold">Academic Pitch Tour</p>
-                <p className="text-[10px] text-slate-400">Step-by-step panel walkthrough</p>
+                <p className="font-bold">Product Pitch Tour</p>
+                <p className="text-[10px] text-slate-400">Step-by-step executive walkthrough</p>
               </div>
             </button>
 
@@ -511,7 +511,7 @@ export const Header: React.FC<HeaderProps> = ({ onToggleSidebar, onRefreshData }
         type="success"
       />
 
-      {/* Interactive Academic Pitch Tour Modal */}
+      {/* Interactive Product Pitch Tour Modal */}
       <DemoTourModal isOpen={isTourOpen} onClose={() => setIsTourOpen(false)} />
     </header>
   );

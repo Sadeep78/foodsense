@@ -105,8 +105,7 @@ def root():
         "status": "online",
         "docs": "/docs",
         "version": "1.0.0",
-        "university": "SLIIT (Sri Lanka Institute of Information Technology)",
-        "specialization": "Data Science & Business Analytics",
+        "platform": "Enterprise Demand & Waste Intelligence",
     }
 
 @app.get("/health")
