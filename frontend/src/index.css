@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg-app: #f8fafc;
+    --color-bg-surface: #ffffff;
+    --color-bg-subtle: #f1f5f9;
+    --color-border-subtle: rgba(226, 232, 240, 0.8);
+    --color-border-hover: rgba(148, 163, 184, 0.4);
+    --color-brand-primary: #059669;
+  }
+
+  .dark {
+    --color-bg-app: #080d1a;
+    --color-bg-surface: #0f172a;
+    --color-bg-subtle: #1e293b;
+    --color-border-subtle: rgba(51, 65, 85, 0.6);
+    --color-border-hover: rgba(100, 116, 139, 0.5);
+    --color-brand-primary: #10b981;
+  }
+
+  html {
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-800 antialiased font-sans selection:bg-brand-500 selection:text-white dark:bg-[#080d1a] dark:text-slate-100;
+  }
+}
+
+/* Tabular figures for data, financial metrics, and timestamps */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum', 'zero';
+}
+
+/* Custom delicate scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #334155;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Pitch / Presentation Mode: enhanced scale & simplified chrome */
+.pitch-mode {
+  font-size: 105%;
+}
+.pitch-mode .pitch-hide {
+  display: none !important;
+}
+.pitch-mode .pitch-highlight {
+  box-shadow: 0 0 0 2px #10b981;
+}
+
+/* Recharts tooltip styling resets */
+.recharts-default-tooltip {
+  border: none !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2) !important;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "foodsense",
+  "version": "1.0.0",
+  "description": "Demand Forecasting and Food Waste Analytics Dashboard for Restaurants and Supermarkets",
+  "scripts": {
+    "start": "node run.js",
+    "dev:backend": "cd backend && uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload",
+    "dev:frontend": "cd frontend && npm run dev",
+    "test": "python -m pytest",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "playwright": "^1.64.1"
+  }
+}

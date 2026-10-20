@@ -1,0 +1,4 @@
+date,product_id,product_name,category,quantity_sold,unit_price,unit_cost
+INVALID_DATE,PRD-BAK-001,Kimbula Banis,Bakery,-15,450.0,270.0
+2026-03-02,,Wood-fired Roast Paan,Bakery,50,180.0,-50.0
+2026-03-03,PRD-CKD-001,Chicken Rice & Curry,Cooked Meals,NOT_A_NUMBER,650.0,360.0
